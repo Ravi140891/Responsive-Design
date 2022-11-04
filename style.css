@@ -52,13 +52,13 @@ main{
     height: min(75vh, 100vh);
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    align-items: center;
 }
 #main{
     text-align: center;
     width: min(100%, 2146px);
     height: min(100vw, 100%);
-    padding: 3em;
+    padding: 6rem;
     background-image: url(ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -297,6 +297,9 @@ footer .fa{
 }
 
 @media (max-width:990px){
+    main{
+        height: min(43vh, 100vh);
+    }
     .menu, .option{
         display: none;
     }
@@ -316,6 +319,7 @@ footer .fa{
 }
 
 @media (max-width: 710px){
+    
     div.box2{
         display: block;
     }
@@ -334,6 +338,7 @@ footer .fa{
     div.card{
         width: 100%;
     }
+    
 }
 
 @media (max-width:430px){
